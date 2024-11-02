@@ -43,7 +43,7 @@ Total params: 11,168,960
 Summaries dir: C:\Users\sree\Documents\SimCLR-Pytorch\experiments\2024-11-01_12-16-57\summaries
 
 --my_config: None
---dataset: cifar100
+--dataset: cifar10
 --dataset_path: None
 --model: resnet18
 --n_epochs: 120
