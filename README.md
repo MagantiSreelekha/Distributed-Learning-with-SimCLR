@@ -11,6 +11,8 @@ To enable distributed training of model between devices or multiple gpus we use 
 
 _**from torch.nn.parallel import DistributedDataParallel**_
 
+https://pytorch.org/tutorials/intermediate/ddp_tutorial.html - use this link to learn about DDP in pytorch
+
 The model file used is directly a pytorch github model file 
 
 To run the model in distributed environment use the command
