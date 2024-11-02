@@ -6,8 +6,7 @@ Need to have CUDA toolkit installed in the systems which are being used to run t
 The pytorch should be installed with cuda version
 
 To enable distributed training of model between devices or multiple gpus we use **DistributedDataParallel** a builtin pytorch function
-from torch.nn.parallel import DistributedDataParallel
-
+_**from torch.nn.parallel import DistributedDataParallel**_
 The model file used is directly a pytorch github model file 
 
 To run the model in distributed environment use the command
