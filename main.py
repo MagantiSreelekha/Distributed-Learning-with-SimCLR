@@ -4,7 +4,7 @@ from torch.nn.parallel import DistributedDataParallel
 from train import finetune, evaluate, pretrain, supervised
 from datasets import get_dataloaders
 from utils import experiment_config, print_network, init_weights
-import model.network as models
+import models
 
 import os
 import logging
